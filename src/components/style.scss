@@ -1,0 +1,34 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    margin-top: 15%;
+    background-color: #cecccc;
+    width: 50%;
+    height: 50vh;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(83, 83, 83);
+    margin-left:25%;
+    input{
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+        background-color: #e1dfdf;
+        border-radius: 5px;
+    }
+    .btn{
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+color: #fff;
+background-color: #000;
+transition: all ease 1s;
+&:hover{
+    background-color: #54d001;
+    color: #fff;
+}
+    }
+}
